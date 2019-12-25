@@ -10,6 +10,7 @@ CCF竞赛-互联网金融实体识
 #### 数据生成
 ``
 mu_data.py 生成序列标注
+
 result_processiing 融合BERT_BILSTM 和 BILSTM_CRF 结果
 ``
 #### 模型训练  BERT_BILSTM_CRF
@@ -40,5 +41,4 @@ bert-base-ner-train
 -device_map 指定GPU训练
 -batch_size：批训练的数量
 -label_list 实体命名的分类
-
 
